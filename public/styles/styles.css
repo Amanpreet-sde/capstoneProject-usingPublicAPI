@@ -157,15 +157,15 @@ p, h1, h3{
     color: white;
 }
 .container{
-    margin-top: 5%;
+    margin-top: 0.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.heading{
+#heading{
     text-align: center;
     font-size: 200%;
-    
+    text-decoration: underline;
 }
 .author{
     text-align: center;
@@ -177,16 +177,12 @@ p, h1, h3{
     justify-content: center;
     font-size: 250%;
     border: solid 1px white;
-    margin-top: 8%;
-}
-.paragraph-text{
-    text-align: center;
-    font-size: 250%;
     margin-top: 5%;
 }
-.btn{
-    cursor: pointer;
-    background-color: #f0f0f0;
- margin-top: 5%;
-    padding: 20px 5px;
+
+.note{
+        text-align: center;
+        font-size: 150%;
+        margin-top: 7%;
+    
 }
