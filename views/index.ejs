@@ -11,6 +11,7 @@
     <title>Programming Quotes Generator</title>
 </head>
 <body>
+    <!-- Background Animation section containing multiple layer of stars -->
     <div class="bg-animation">
         <div id="stars"></div>
         <div id="stars2"></div>
@@ -19,22 +20,26 @@
     </div>
     <div class="container">
     <div id="heading">
+        <!--main heading of the page -->
         <h1>
             Programming Quotes Generator
         </h1>
         </div>
        
         <div class="author">
-    <h3>
-        <%= content.author %>
-    </h3>
+    <!-- display the author of the current quote-->
+    <h2>
+        <%= content.author %> <!-- insert the name dynamically using template syntax-->
+    </h2>
     </div>
 <div class="quote">
+      <!-- display the current quote-->
     <p>
-        <%= content.quote %>
+        <%= content.quote %>  <!-- insert the quote dynamically using template syntax-->
     </p>
 </div>
 
+ <!-- Note to the user for interaction instructions --> 
 <p class="note">[NOTE: Reload the page to generate new quotes...]</p>
 </div>
 
