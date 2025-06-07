@@ -6,7 +6,8 @@ import axios from "axios"; //imoport axios for making HTTP requests
 const app= express();
 
 //creatre a constant for port number
-const PORT= 3000;
+const PORT = process.env.PORT || 3000;
+
 
 //define API url from which quotes will be fetched
  const API_URL= "https://programming-quotesapi.vercel.app/api";
