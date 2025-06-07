@@ -4,9 +4,9 @@
   "description": "In this project,I built a website using the Express/Node.js platform, with the Axios HTTP client, that integrates a  public API . This website  interact with the public API, retrieve data, and present it in a user-friendly manner.",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node index.js"
+},
   "author": "Amanpreet singh",
   "license": "ISC",
   "dependencies": {
